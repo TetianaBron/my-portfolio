@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "my portfolio",
   "main": "gulpfile.js",
+  "homepage": "https://tetianabron.github.io/portfolio_gh/",
   "scripts": {
     "dev": "gulp",
     "deploy": "gh-pages -d dist"
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
+    "gh-pages": "^3.2.3",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
