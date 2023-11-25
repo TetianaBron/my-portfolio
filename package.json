@@ -3,19 +3,19 @@
   "version": "1.0.0",
   "description": "my portfolio",
   "main": "gulpfile.js",
-  "homepage": "https://tetianabron.github.io/portfolio_gh/",
+  "homepage": "https://tetianabron.github.io/my-portfolio",
   "scripts": {
     "dev": "gulp",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TetianaBron/portfolio_GH.git"
+    "url": "git+https://github.com/TetianaBron/my-portfolio.git"
   },
   "author": "Tetiana Bronitska <tetiana.bron@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TetianaBron/portfolio_GH/issues"
+    "url": "https://github.com/TetianaBron/my-portfolio/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.26.12",
