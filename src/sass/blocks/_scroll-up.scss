@@ -1,0 +1,25 @@
+.scroll-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  background-color: $main-color;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  z-index: 6;
+  transition: all 0.6s;
+  .icon {
+    transition: all 0.6s;
+  }
+  &:hover {
+    background-color: $main-hover-color;
+    .icon {
+      fill: $white-color;
+    }
+  }
+}

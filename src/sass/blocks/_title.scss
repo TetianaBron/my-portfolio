@@ -1,0 +1,36 @@
+.title {
+  font-weight: bold;
+
+  &_fs14 {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &_fs16 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &_fs20 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  &_fs36 {
+    font-size: 36px;
+    line-height: 60px;
+  }
+  &_fs48 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  &__section-title {
+    position: relative;
+    text-align: center;
+    @include before_circle_centered;
+  }
+  &__section_subtitle {
+    text-align: center;
+    @include after_divider_centered_mb25;
+    &_mt60 {
+      margin-top: 60px;
+    }
+  }
+}

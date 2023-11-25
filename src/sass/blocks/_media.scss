@@ -1,0 +1,243 @@
+@media (max-width: 1439px) {
+  .sidepanel {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+  .about {
+    &__grid-container {
+      column-gap: 50px;
+    }
+    &__skills {
+      column-gap: 20px;
+    }
+  }
+  .skills {
+    &__items {
+      .google {
+        display: block;
+      }
+    }
+  }
+  .my-projects {
+    &__grid-container {
+      grid-template-columns: repeat(auto-fill, 280px);
+      row-gap: 35px;
+      justify-content: space-around;
+      .uber,
+      .webStudio,
+      .phoneBook,
+      .pulse,
+      .timer,
+      .countdownTimer,
+      .findImagesJS,
+      .news,
+      .words,
+      .findingMovies,
+      .findingImagesReact {
+        grid-column: unset;
+        grid-row: unset;
+      }
+      &_team {
+        grid-template: 280px / repeat(auto-fill, 280px);
+        grid-auto-rows: 280px;
+      }
+    }
+    &__about {
+      font-size: 14px;
+    }
+    &__name {
+      font-size: 30px;
+    }
+    &__img {
+      object-fit: cover;
+      object-position: top left;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  .about {
+    &__grid-container {
+      grid-template-columns: 300px 1fr;
+    }
+    &__skills {
+      grid-template-columns: 1fr;
+    }
+  }
+  .experience {
+    &__grid-container {
+      column-gap: 50px;
+    }
+  }
+  .skills {
+    &__items {
+      .google {
+        display: none;
+      }
+    }
+  }
+  .scroll-up {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .title {
+    &_fs48 {
+      font-size: 28px;
+      line-height: 39px;
+    }
+    &_fs36 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    &__section_subtitle {
+      margin-top: 26px;
+      &:after {
+        margin-top: 15px;
+      }
+      &_mt60 {
+        margin-top: 40px;
+      }
+    }
+  }
+  .promo {
+    &__title {
+      width: 300px;
+    }
+  }
+  .about {
+    padding-top: 40px;
+    &__grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 400px auto auto;
+    }
+    &__img {
+      grid-row: unset;
+      img {
+        object-position: top;
+      }
+    }
+    &__subtitle {
+      margin-top: 26px;
+      &:after {
+        margin-top: 15px;
+      }
+    }
+    &__skills {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .experience {
+    padding-top: 45px;
+    &__grid-container {
+      grid-template-columns: 1fr;
+      padding-top: 40px;
+      row-gap: 40px;
+    }
+    &__item-grid-container {
+      &:not(:first-child) {
+        padding-top: 10px;
+      }
+    }
+  }
+  .skills {
+    padding-top: 45px;
+    &__items {
+      margin-top: 20px;
+      .google {
+        display: block;
+      }
+    }
+    &__rating {
+      margin-top: 40px;
+      grid-template-columns: minmax(260px, 350px);
+      justify-content: center;
+    }
+  }
+  .my-projects {
+    padding-top: 45px;
+    &__grid-container {
+      margin-top: 40px;
+    }
+  }
+  .contacts {
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .title {
+    &_fs48 {
+      font-size: 26px;
+    }
+  }
+  .hamburger {
+    right: 10px;
+  }
+  .promo__btns {
+    margin-top: 32px;
+  }
+  .menu {
+    &__block {
+      width: 250px;
+      padding-left: 20px;
+    }
+  }
+  .about {
+    &__grid-container {
+      grid-template-rows: 340px auto auto;
+      column-gap: 40px;
+    }
+    &__skills {
+      grid-template-columns: minmax(260px, 300px);
+      justify-content: center;
+    }
+  }
+  .experience {
+    &__grid-container {
+      padding: 40px 12px 0;
+    }
+    &__item-grid-container {
+      row-gap: 10px;
+    }
+  }
+  .contacts {
+    &__grid-container {
+      padding: 0;
+    }
+    &__form {
+      grid-template: 45px 45px 190px minmax(45px, auto) / 1fr;
+    }
+    &__textarea {
+      grid-column: unset;
+    }
+    &__triggers {
+      grid-column: unset;
+      grid-template-columns: 1fr;
+    }
+    &__policy {
+      margin: 0 auto;
+      text-align: center;
+    }
+    &__btn {
+      margin: 20px auto 0;
+    }
+  }
+}

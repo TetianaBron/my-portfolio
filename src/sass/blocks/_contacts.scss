@@ -1,0 +1,52 @@
+.contacts {
+  padding: 120px 35px 90px 52px;
+  min-height: 200px;
+  // &__grid-container {
+  //   padding: 0 35px 0 52px;
+  //   // display: grid;
+  //   grid-template-columns: 400px 585px;
+  //   grid-template-rows: 600px;
+  //   justify-content: space-between;
+  // }
+  // &__img {
+  //   img {
+  //     height: 100%;
+  //     width: 100%;
+  //     object-fit: cover;
+  //   }
+  // }
+  // &__descr {
+  //   padding-top: 6px;
+  //   align-items: center;
+  // }
+  &__title {
+    position: relative;
+    padding-left: 10px;
+    @include before_circle;
+  }
+  &__text {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  &__subtitle {
+    margin-top: 6px;
+    @include after_divider;
+  }
+  &__social-items {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 30px) auto;
+    column-gap: 25px;
+  }
+  &__social-icon {
+    width: 30px;
+    height: 30px;
+    transition: all 0.6s;
+    &:hover,
+    &:focus {
+      fill: $main-color;
+    }
+  }
+}

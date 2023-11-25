@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Портфолио</title>
+    <meta name="title" content="Front-end developer" />
+    <meta name="description" content="Здесь вы сможете узнать больше обо мне" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://my-portfolio-tb.herokuapp.com/" />
+    <meta property="og:title" content="Front-end developer" />
+    <meta
+      property="og:description"
+      content="Здесь вы сможете узнать больше обо мне"
+    />
+    <meta property="og:image" content="../img/me.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://my-portfolio-tb.herokuapp.com/"
+    />
+    <meta property="twitter:title" content="Front-end developer" />
+    <meta
+      property="twitter:description"
+      content="Здесь вы сможете узнать больше обо мне"
+    />
+    <meta property="twitter:image" content="../img/me.jpg" />
+
+    <!-- Favicon  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="../img/favicon//apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="../img/favicon//apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="../img/favicon//apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="../img/favicon//apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="../img/favicon//apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="../img/favicon//apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="../img/favicon//apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="../img/favicon//apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../img/favicon//apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="../img/favicon//android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../img/favicon//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="../img/favicon//favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../img/favicon//favicon-16x16.png"
+    />
+    <link rel="manifest" href="../img/favicon//manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="../img/favicon//ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="../css/style.min.css" />
+  </head>
+  <body>
+    <aside class="sidepanel">
+      <p class="sidepanel__text">Социальные сети</p>
+      <ul class="sidepanel__items">
+        <li class="sidepanel__item">
+          <a
+            href="https://github.com/TetianaBron"
+            target="_blank"
+            aria-label="ссылка на github"
+            class="sidepanel__link"
+          >
+            <svg class="sidepanel__icon">
+              <use href="../icons/sprite.svg#social--github"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sidepanel__item">
+          <a
+            href="https://www.linkedin.com/in/tetiana-bronitska/"
+            target="_blank"
+            aria-label="ссылка на linkedin"
+            class="sidepanel__link"
+          >
+            <svg class="sidepanel__icon">
+              <use href="../icons/sprite.svg#social--linkedin"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="sidepanel__item">
+          <a
+            href="tg://resolve?domain=TetianaBron"
+            target="_blank"
+            aria-label="ссылка на telegram"
+            class="sidepanel__link"
+          >
+            <svg class="sidepanel__icon">
+              <use href="../icons/sprite.svg#social--telegram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <div class="menu">
+      <div class="menu__block">
+        <button class="menu__btn-close">
+          <span></span>
+          <span></span>
+        </button>
+        <nav>
+          <ul class="menu__list">
+            <li class="menu__link"><a href="#about">ОБО МНE</a></li>
+            <li class="menu__link"><a href="#experience">МОЙ ОПЫТ</a></li>
+            <li class="menu__link"><a href="#skills">МОИ НАВЫКИ</a></li>
+            <li class="menu__link"><a href="#my-projects">МОИ РАБОТЫ</a></li>
+            <li class="menu__link"><a href="#contacts">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <ul class="menu__social-items">
+          <li class="menu__social-item">
+            <a
+              href="https://github.com/TetianaBron"
+              target="_blank"
+              aria-label="ссылка на github"
+            >
+              <svg class="menu__social-icon">
+                <use href="../icons/sprite.svg#social--github"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__social-item">
+            <a
+              href="https://www.linkedin.com/in/tetiana-bronitska/"
+              target="_blank"
+              aria-label="ссылка на linkedin"
+            >
+              <svg class="menu__social-icon">
+                <use href="../icons/sprite.svg#social--linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu__social-item">
+            <a
+              href="tg://resolve?domain=TetianaBron"
+              target="_blank"
+              aria-label="ссылка на telegram"
+            >
+              <svg class="menu__social-icon">
+                <use href="../icons/sprite.svg#social--telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="menu__overlay"></div>
+    </div>
+    <section id="promo" class="promo">
+      <ul class="promo__lang">
+        <li class="promo__lang-item">
+          <a href="../../" class="promo__lang-link">анг</a>
+        </li>
+        <li class="promo__lang-item">
+          <a href="../uk" class="promo__lang-link">укр</a>
+        </li>
+        <li class="promo__lang-item promo__lang-item_current">
+          <a href="#" class="promo__lang-link">рус</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="container">
+        <p class="title title_fs16 promo__subtitle">
+          Меня зовут Татьяна Броницкая
+        </p>
+        <h1
+          class="title title_fs48 promo__title animate__animated animate__flip"
+        >
+          Я <span lang="en">web</span>-разработчик из города Киев
+        </h1>
+        <div class="promo__btns">
+          <a href="#my-projects" class="btn">Портфолио</a>
+          <a href="#about" class="btn btn_trans">Обо мне</a>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__grid-container">
+          <div class="about__img">
+            <!-- <img
+              srcset="../img/main_min.jpg 300w, ../img/main.jpg 400w"
+              sizes="(max-width: 576px) 280px,
+                      (min-width: 577px) 400px"
+              src="../img/main.jpg"
+              alt="me"
+            /> -->
+            <picture>
+              <source media="(max-width: 576px)" srcset="../img/main_min.jpg" />
+              <source type="image/webp" srcset="../img/main.webp" />
+              <img src="../img/main.jpg" alt="me" />
+            </picture>
+          </div>
+          <div class="about__summary">
+            <h2 class="title title_fs16 about__title">Обо мне</h2>
+            <p
+              class="title title_fs36 about__subtitle wow animate__animated animate__backInDown"
+            >
+              Меня зовут Татьяна
+            </p>
+            <p class="about__text">
+              Верстаю сайты, разрабатываю приложения. Написание кода для меня
+              процесс творения. Люблю наблюдать когда код превращается в
+              красивый исправно работающий продукт. Уверена, что возможно все,
+              это только вопрос времени. Люблю природу, йогу и хорошо работающие
+              <span lang="en">user-friendly</span> приложения, которые облегчают
+              жизнь людям. Люблю современные технологии, не боюсь изучать новое.
+              Хочу развиваться как <span lang="en">Front-end developer</span>.
+              <span role="img" aria-label="Іконка двох сердець">💕</span>
+            </p>
+          </div>
+
+          <ul class="about__skills">
+            <li class="about__skill">
+              <div class="icon__wrapper">
+                <svg class="icon">
+                  <use
+                    href="../icons/sprite.svg#about_me--web_development"
+                  ></use>
+                </svg>
+              </div>
+              <div>
+                <h3 class="title title_fs14 about__skill-title" lang="en">
+                  HTML-coder
+                </h3>
+                <p class="about__skill-text">
+                  Использую семантические теги. Могу сделать
+                  адаптивную/отзывчивую верстку. Флексы и гриды - мои друзья.
+                </p>
+              </div>
+            </li>
+            <li class="about__skill">
+              <div class="icon__wrapper">
+                <svg class="icon">
+                  <use href="../icons/sprite.svg#about_me--developer"></use>
+                </svg>
+              </div>
+              <div>
+                <h3 class="title title_fs14 about__skill-title" lang="en">
+                  Front-end developer
+                </h3>
+                <p class="about__skill-text">
+                  Главное - передать в верстке то, что создал дизайнер, а также
+                  реализовать пользовательскую логику.
+                </p>
+              </div>
+            </li>
+            <li class="about__skill">
+              <div class="icon__wrapper">
+                <svg class="icon">
+                  <use href="../icons/sprite.svg#about_me--programmer"></use>
+                </svg>
+              </div>
+              <div>
+                <h3 class="title title_fs14 about__skill-title">
+                  <span lang="en">Javascript</span>-программист
+                </h3>
+                <p class="about__skill-text">
+                  Чистый и понятный код - это приоритет. Делая комментарии мы
+                  облегчаем жизнь в первую очередь себе.
+                </p>
+              </div>
+            </li>
+            <li class="about__skill">
+              <div class="icon__wrapper">
+                <svg class="icon">
+                  <use href="../icons/sprite.svg#about_me--mobile_dev"></use>
+                </svg>
+              </div>
+              <div>
+                <h3 class="title title_fs14 about__skill-title">
+                  <span lang="en">React</span> разработчик
+                </h3>
+                <p class="about__skill-text">
+                  Ключевые особенности <span lang="en">React</span>:
+                  декларативность, универсальность, компонентный подход,
+                  виртуальный <span lang="en">DOM, JSX</span>.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <div class="container">
+        <h2 class="title title_fs16 title__section-title">Опыт</h2>
+        <p
+          class="title title_fs36 title__section_subtitle wow animate__animated animate__backInDown"
+        >
+          Мой путь
+        </p>
+        <div class="experience__grid-container">
+          <div class="experience__column">
+            <h3 class="title title_fs20 experience__column-title">
+              Образование
+            </h3>
+            <ul>
+              <li class="experience__item-grid-container">
+                <div class="icon__wrapper">
+                  <svg class="icon">
+                    <use href="../icons/sprite.svg#experience--english"></use>
+                  </svg>
+                </div>
+                <div class="experience__head">
+                  <h4 class="title title_fs14" lang="en">JustSchool</h4>
+                  <p class="experience__text">
+                    Английский язык (2021 - сейчас)
+                  </p>
+                </div>
+                <div class="experience__item-text">
+                  <p class="experience__text">
+                    Занятия с носителями языка 2 раза в неделю
+                  </p>
+                  <a
+                    class="experience__link"
+                    href="https://drive.google.com/file/d/1PZlA9QVmhK0cs1KcI3IPDFTkamU1B-Ow/view"
+                    target="_blank"
+                  >
+                    <p class="experience__text">
+                      Законченый уровень: <span lang="en">Intermediate</span>
+                    </p>
+                  </a>
+                  <p class="experience__text">
+                    Поточный уровень: <span lang="en">Upper intermediate</span>
+                  </p>
+                </div>
+              </li>
+              <li class="experience__item-grid-container">
+                <div class="icon__wrapper">
+                  <svg class="icon">
+                    <use href="../icons/sprite.svg#experience--udemy"></use>
+                  </svg>
+                </div>
+                <div class="experience__head">
+                  <a
+                    class="experience__link"
+                    href="https://www.udemy.com/certificate/UC-5492e87d-2e6f-461b-b58f-6c30f697a457"
+                    target="_blank"
+                  >
+                    <h4 class="title title_fs14" lang="en">Udemy</h4>
+                    <p class="experience__text">
+                      Курс <span lang="en">Web</span>-разработчик-2021
+                    </p>
+                  </a>
+                </div>
+                <div class="experience__item-text">
+                  <p class="experience__text">Автор: Иван Петриченко</p>
+                  <p class="experience__text">
+                    96 лекций (33,5 часов), 4 проекта
+                  </p>
+                </div>
+              </li>
+
+              <li class="experience__item-grid-container">
+                <div class="icon__wrapper">
+                  <svg class="icon">
+                    <use href="../icons/sprite.svg#experience--goit"></use>
+                  </svg>
+                </div>
+                <div class="experience__head">
+                  <a
+                    class="experience__link"
+                    href="https://drive.google.com/file/d/10PJlTS1nBEs4TAaY4L0FMgeBXCYrhj_V/view"
+                    target="_blank"
+                  >
+                    <h4 class="title title_fs14" lang="en">GOIT</h4>
+                    <p class="experience__text">
+                      Курс
+                      <span lang="en">Full-stack developer</span> (2020 - 2021)
+                    </p>
+                  </a>
+                </div>
+                <div class="experience__item-text">
+                  <p class="experience__text">
+                    Автор: Александр Репета, Юрий Кучма
+                  </p>
+                  <ul>
+                    <li class="experience__text">
+                      8 модулей <span lang="en">HTML+CSS</span> - 1 проект
+                    </li>
+                    <li class="experience__text">
+                      14 модулей <span lang="en">JS</span> - 3 проекта
+                    </li>
+                    <li class="experience__text">
+                      8 модулей <span lang="en">REACT</span> - 2 проекта
+                    </li>
+                    <li class="experience__text">
+                      6 модулей <span lang="en">NODE.JS</span> - 1 проект
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="experience__item-grid-container">
+                <div class="icon__wrapper">
+                  <svg class="icon">
+                    <use
+                      href="../icons/sprite.svg#experience--university"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="experience__head">
+                  <h4 class="title title_fs14">
+                    Киевский национальный университет внутренних дел
+                  </h4>
+                  <p class="experience__text">
+                    Диплом специалиста (2004 - 2009)
+                  </p>
+                </div>
+                <div class="experience__item-text">
+                  <p class="experience__text">Специальность: правоведение</p>
+                  <p class="experience__text">Квалификация: юрист</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="experience__column">
+            <h3 class="title title_fs20 experience__column-title">
+              Опыт работы
+            </h3>
+            <ul>
+              <li class="experience__item-grid-container">
+                <div class="icon__wrapper">
+                  <svg class="icon">
+                    <use
+                      href="../icons/sprite.svg#experience--programmer"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="experience__head">
+                  <a
+                    class="experience__link"
+                    href="https://maklai.com.ua/"
+                    target="_blank"
+                  >
+                    <h4 class="title title_fs14" lang="en">Maklai</h4>
+                  </a>
+                  <p class="experience__text">
+                    <span lang="en">Junior front-end Developer</span> (2022 -
+                    сейчас)
+                  </p>
+                </div>
+              </li>
+              <li class="experience__item-grid-container">
+                <div class="icon__wrapper">
+                  <svg class="icon">
+                    <use href="../icons/sprite.svg#experience--developer"></use>
+                  </svg>
+                </div>
+                <div class="experience__head">
+                  <a class="experience__link" href="#team-projects">
+                    <h4 class="title title_fs14" lang="en">GOIT</h4>
+                    <p class="experience__text">
+                      Практика командной работы (2021)
+                    </p>
+                  </a>
+                </div>
+                <div class="experience__item-text">
+                  <p class="experience__text">Методология: скрам</p>
+                  <p class="experience__text">3 проекта</p>
+                </div>
+              </li>
+              <li class="experience__item-grid-container">
+                <div class="icon__wrapper">
+                  <svg class="icon">
+                    <use href="../icons/sprite.svg#experience--working"></use>
+                  </svg>
+                </div>
+                <div class="experience__head">
+                  <h4 class="title title_fs14">Начальник отдела</h4>
+                  <p class="experience__text">
+                    Офис Генерального прокурора (2012 - 2021)
+                  </p>
+                </div>
+                <div class="experience__item-text">
+                  <p class="experience__text">
+                    Внедрение систем электронного документооборота, разработка
+                    технического задания программистам, тестирование новых
+                    версий продукта, обучение персонала работы с функционалом,
+                    организация работы отдела документального обеспечения
+                    руководства Офиса
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2 class="title title_fs16 title__section-title">Навыки</h2>
+        <p
+          class="title title_fs36 title__section_subtitle wow animate__animated animate__backInDown"
+        >
+          Что я использую в работе
+        </p>
+        <ul class="skills__items">
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--html5"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">HTML5</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--css3"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">CSS3</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--sass"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">SASS</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--bem"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">BEM</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--figma"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">Figma</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--bootstrap"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">
+              Bootstrap5
+            </p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--git"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">GIT</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--js"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">
+              Java Script
+            </p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--react"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">React</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--redux"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">Redux</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--parcel"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">Parcel</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--gulp"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">Gulp</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--webpack"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">Webpack</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--nodejs"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">Node.JS</p>
+          </li>
+          <li class="skills__item">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--vscode"></use>
+            </svg>
+            <p class="title title_fs14 skills__item-text" lang="en">VS Code</p>
+          </li>
+          <li class="skills__item google">
+            <svg class="skills__item-icon">
+              <use href="../icons/sprite.svg#skills--google"></use>
+            </svg>
+
+            <p
+              class="title title_fs14 skills__item-text skills__item-text_inline"
+              lang="en"
+            >
+              Google
+            </p>
+            <span
+              class="skills__item-text-emoji"
+              role="img"
+              aria-label="Иконка улыбки"
+              >🙂</span
+            >
+          </li>
+        </ul>
+        <ul class="skills__rating">
+          <li class="skills__rating-item">
+            <p class="title title_fs14 skills__rating-item-title">
+              Создание сайтов и приложений
+            </p>
+            <p class="skills__rating-item-counter">100%</p>
+            <div class="skills__rating-item-line">
+              <span></span>
+            </div>
+          </li>
+          <li class="skills__rating-item">
+            <p class="title title_fs14 skills__rating-item-title" lang="en">
+              English
+            </p>
+            <p class="skills__rating-item-counter">75%</p>
+            <div class="skills__rating-item-line">
+              <span></span>
+            </div>
+          </li>
+          <li class="skills__rating-item">
+            <p class="title title_fs14 skills__rating-item-title" lang="en">
+              Soft skills
+            </p>
+            <p class="skills__rating-item-counter">100%</p>
+            <div class="skills__rating-item-line">
+              <span></span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="my-projects" id="my-projects">
+      <div class="container">
+        <h2 class="title title_fs16 title__section-title">Портфолио</h2>
+        <p
+          class="title title_fs36 title__section_subtitle wow animate__animated animate__backInDown"
+        >
+          Мои личные проекты
+        </p>
+        <ul class="my-projects__grid-container">
+          <li class="my-projects__item uber">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">Лендинг с отзывчивым дизайном</p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Убер</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/uber/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/uber"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, bootstrap grid
+              </p>
+            </div>
+            <img src="../img/my/uber.jpg" alt="uber" class="my-projects__img" />
+          </li>
+          <li class="my-projects__item webStudio">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">Лендинг с адаптивным дизайном</p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Веб студия</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/goit-markup-hw-08/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/goit-markup-hw-08"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">HTML5, SASS</p>
+            </div>
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="../img/my/min/webStudio_min.jpg"
+              />
+              <source
+                media="(min-width: 1201px)"
+                srcset="../img/my/webStudio.jpg"
+              />
+              <img
+                src="../img/my/webStudio.jpg"
+                alt="webStudio"
+                class="my-projects__img"
+              />
+            </picture>
+          </li>
+          <li class="my-projects__item phoneBook">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Приложение, где можно зарегистрироваться,
+                добавлять/удалять/искать контакты
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Телефонная книга</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron-phonebook-hooks.netlify.app/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/goit-react-hw-09-phonebook"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, React, React routes, React transition group, axios,
+                redux
+              </p>
+            </div>
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="../img/my/min/phoneBook_min.jpg"
+              />
+              <source
+                media="(min-width: 1201px)"
+                srcset="../img/my/phoneBook.jpg"
+              />
+              <img
+                src="../img/my/phoneBook.jpg"
+                alt="phoneBook"
+                class="my-projects__img"
+              />
+            </picture>
+          </li>
+          <li class="my-projects__item pulse">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">Лендинг с отзывчивым дизайном</p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Пульс</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/pulse/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/pulse"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, BEM, JQUERY, GULP, Libs - bootstrap.reboot,
+                animate.css, wow.js
+              </p>
+            </div>
+            <img
+              src="../img/my/pulse.jpg"
+              alt="pulse"
+              class="my-projects__img"
+            />
+          </li>
+          <li class="my-projects__item timer">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Приложение с кнопками начать/остановить и продолжить/обновить
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Таймер</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/timer/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/timer"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, bootstrap, Parcel, JS
+              </p>
+            </div>
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="../img/my/min/timer_min.jpg"
+              />
+              <source
+                media="(min-width: 1201px)"
+                srcset="../img/my/timer.jpg"
+              />
+              <img
+                src="../img/my/timer.jpg"
+                alt="timer"
+                class="my-projects__img"
+              />
+            </picture>
+          </li>
+          <li class="my-projects__item countdownTimer">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Приложение, где можно выбрать важную дату в будущем
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Таймер обратного отсчета</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/countdown_timer/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/countdown_timer"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, bootstrap, Parcel, JS
+              </p>
+            </div>
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="../img/my/min/countdownTimer_min.jpg"
+              />
+              <source
+                media="(min-width: 1201px)"
+                srcset="../img/my/countdownTimer.jpg"
+              />
+              <img
+                src="../img/my/countdownTimer.jpg"
+                alt="countdown timer"
+                class="my-projects__img"
+              />
+            </picture>
+          </li>
+          <li class="my-projects__item findImagesJS">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Адаптивное приложение для поиска изображений по ключевому слову
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Поиск изображений JS</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/goit-js-hw-13-image-finder/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/goit-js-hw-13-image-finder"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, WEBPACK, JS, AJAX, REST API
+              </p>
+            </div>
+            <img
+              src="../img/my/findImagesJS.jpg"
+              alt="finding images JS"
+              class="my-projects__img"
+            />
+          </li>
+          <li class="my-projects__item news">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Адаптивное приложение для поиска новостей по ключевому слову<br />
+                (на английском языке)
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Поиск новостей</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/news-api/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/news-api"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, Bootstrap, Handlebars, Parcel, JS, AJAX, REST API,
+                NODE.JS, Express
+              </p>
+            </div>
+            <img src="../img/my/news.jpg" alt="news" class="my-projects__img" />
+          </li>
+          <li class="my-projects__item words">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Адаптивное приложение для изучения английского языка
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Слова</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://words-app-tb-github.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/words-app-tb"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, CSS3, Bootstrap, JS, AJAX, REST API, NODE.JS, axios,
+                Express
+              </p>
+            </div>
+            <img
+              src="../img/my/words.jpg"
+              alt="words"
+              class="my-projects__img"
+            />
+          </li>
+          <li class="my-projects__item findingMovies">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Адаптивное приложение, где отображается что в тренде сегодня,
+                также есть возможность оскать фильм по ключевому слову
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Поиск фильмов</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tb-themoviedb-org.netlify.app/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/goit-react-hw-04-movies"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, React, React routes, AJAX, REST API
+              </p>
+            </div>
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="../img/my/min/findingMovies_min.jpg"
+              />
+              <source
+                media="(min-width: 1201px)"
+                srcset="../img/my/findingMovies.jpg"
+              />
+              <img
+                src="../img/my/findingMovies.jpg"
+                alt="finding movies"
+                class="my-projects__img"
+              />
+            </picture>
+          </li>
+          <li class="my-projects__item findingImagesReact">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Адаптивное приложение для поиска изображений по ключевому слову
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">
+                  Поиск изображений <span lang="en">React</span>
+                </h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://tetianabron.github.io/goit-react-hw-09-images/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/goit-react-hw-09-images"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, CSS-modules, React, react hooks, AJAX, REST API
+              </p>
+            </div>
+            <picture>
+              <source
+                media="(max-width: 1200px)"
+                srcset="../img/my/min/findingImagesReact_min.jpg"
+              />
+              <source
+                media="(min-width: 1201px)"
+                srcset="../img/my/findingImagesReact.jpg"
+              />
+              <img
+                src="../img/my/findingImagesReact.jpg"
+                alt="finding images React"
+                class="my-projects__img"
+              />
+            </picture>
+          </li>
+        </ul>
+        <p
+          class="title title_fs36 title__section_subtitle title__section_subtitle_mt60 wow animate__animated animate__backInDown"
+          id="team-projects"
+        >
+          Командные проекты
+        </p>
+        <ul
+          class="my-projects__grid-container my-projects__grid-container_team"
+        >
+          <li class="my-projects__item barbershop">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Лендинг с адаптивным дизайном для парикмахерской в Киеве
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Барбер шоп</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://project1-max.github.io/barbershop/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/barbershop"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, Parcel
+              </p>
+            </div>
+            <img
+              src="../img/team/barberShop.jpg"
+              alt="barbershop"
+              class="my-projects__img"
+            />
+          </li>
+          <li class="my-projects__item marketPlace">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Адаптивное приложение с регистрацией и возможностью добавления
+                объявлений в избранное, создания/сортировки/поиска объявлений
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Сайт продаж</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://project5-advertising-site.netlify.app/"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/project5-advertising-site"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, SASS, WEBPACK, JS, Handlebars, AJAX, REST API
+              </p>
+            </div>
+            <img
+              src="../img/team/marketPlace.jpg"
+              alt="market place"
+              class="my-projects__img"
+            />
+          </li>
+          <li class="my-projects__item notes">
+            <div class="my-projects__overlay">
+              <p class="my-projects__about">
+                Адаптивное приложение с регистрацией для создания квестов и
+                вызовов, которые будут сортироваться по датам
+              </p>
+              <div class="my-projects__wrapper">
+                <h3 class="my-projects__name">Заметки</h3>
+                <ul class="my-projects__links">
+                  <li class="my-projects__link">
+                    <a
+                      href="https://questifyapp.netlify.app/auth"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#projects--link"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/questify-front"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="my-projects__link">
+                    <a
+                      href="https://github.com/TetianaBron/questify-back"
+                      target="_blank"
+                    >
+                      <svg class="my-projects__icon">
+                        <use href="../icons/sprite.svg#social--github"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <p class="my-projects__technologies" lang="en">
+                HTML5, CSS-modules, React, React routes, redux, AJAX, REST API,
+                NODE.JS, express, MongoDB
+              </p>
+            </div>
+            <img
+              src="../img/team/notes.jpg"
+              alt="notes"
+              class="my-projects__img"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <h2 class="title title_fs16 contacts__title">Контакты</h2>
+        <p
+          class="title title_fs36 contacts__subtitle wow animate__animated animate__backInDown"
+        >
+          Свяжитесь со мной
+        </p>
+        <p class="contacts__text">Любым удобным для вас способом:</p>
+        <ul class="contacts__social-items">
+          <li class="contacts__social-item">
+            <a
+              href="mailto:tetiana.bron@gmail.com"
+              aria-label="ссылка на email"
+            >
+              <svg class="contacts__social-icon">
+                <use href="../icons/sprite.svg#social--mail"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__social-item">
+            <a
+              href="https://www.linkedin.com/in/tetiana-bronitska/"
+              target="_blank"
+              aria-label="ссылка на linkedin"
+            >
+              <svg class="contacts__social-icon">
+                <use href="../icons/sprite.svg#social--linkedin"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="contacts__social-item">
+            <a
+              href="tg://resolve?domain=TetianaBron"
+              target="_blank"
+              aria-label="ссылка на telegram"
+            >
+              <svg class="contacts__social-icon">
+                <use href="../icons/sprite.svg#social--telegram"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <a href="#promo" class="scroll-up">
+      <svg class="icon">
+        <use href="../icons/sprite.svg#btn--up"></use>
+      </svg>
+    </a>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
