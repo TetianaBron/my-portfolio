@@ -10,8 +10,5 @@ Adaptive design using
 - css-grids;
 - libs - bootstrap.reboot, animate.css, wow.js;
 - JS;
-- Node.JS;
-- Express;
-- Nodemailer;
 - meta tags for social media;
 - favicon for different devices
